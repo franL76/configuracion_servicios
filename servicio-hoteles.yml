@@ -1,0 +1,15 @@
+
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5433/hoteles
+spring.datasource.username=postgres
+spring.datasource.password=fran
+server.port=8000
+
+#properties eureka
+spring.application.name=servicio-hoteles
+#sin securizar el servidor eureka
+#eureka.client.service-url.defaultZone=http://admin:admin@localhost:8761/eureka  
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+#Securizando el servidor eureka
+
